@@ -960,7 +960,9 @@ img {
   border-radius: 50%;
 }
 hr {
-  margin-top: 20px;
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+  margin-top: 1px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eee;
@@ -3578,6 +3580,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  font-size: 130%;
 }
 .nav > li {
   position: relative;
@@ -3637,7 +3640,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555;
+  /*color: #555; */
+  color: #ef3e1a;
   cursor: default;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -4214,7 +4218,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #080808;
+  /*background-color: #080808; */
+  background-color: #fb460e;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -4240,14 +4245,17 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
   color: #fff;
-  background-color: #080808;
+  /*background-color: #080808; */
+  background-color: #fb460e;
 }
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #080808;
+   /* border-color: #080808; */
+   background-color: #fb460e;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #080808;
+    /* background-color: #080808; */
+    background-color: #fb460e;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #777;
@@ -4261,7 +4269,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #fff;
-    background-color: #080808;
+    /* background-color: #080808; */
+    background-color: #fb460e;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
