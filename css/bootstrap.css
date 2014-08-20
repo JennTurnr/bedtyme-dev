@@ -1237,7 +1237,8 @@ ol ol {
 }
 .list-inline {
   padding-left: 0;
-  margin-left: -5px;
+  /* margin-left: -5px; */
+  /* margin-left: 780px; */
   list-style: none;
 }
 .list-inline > li {
