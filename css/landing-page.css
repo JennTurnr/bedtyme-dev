@@ -187,11 +187,13 @@ footer {
     font-size: 0.9em;
 }
 
-.credit {
-    z-index: 60;
+.copyright-text a {
+    font-family: Exo;
+    font-size: 1.1em;
     text-decoration: none;
-    color: #878787;
+
 }
+
  /*.copyright text-muted small */
 
 
