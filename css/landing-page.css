@@ -174,10 +174,25 @@ footer {
     /* background-color: #f8f8f8; */
     background-color: #080808;
     position: fixed;
-    height: 70px;
+    /* height: 70px; */
+    height: 110px;
     bottom: 0;
     width: 100%;
+
 }
+
+.copyright-text {
+    z-index: 50;
+    color: #878787;
+    font-size: 0.9em;
+}
+
+.credit {
+    z-index: 60;
+    text-decoration: none;
+    color: #878787;
+}
+ /*.copyright text-muted small */
 
 
 footer i {
@@ -204,6 +219,10 @@ p.copyright {
     /* color: #fb460e; */
     color: #801e24;
 }
+
+
+
+
 
  /*#video-section {
     margin-left: 0px;

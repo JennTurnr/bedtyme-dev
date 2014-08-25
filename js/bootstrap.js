@@ -4,6 +4,45 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+
+
+
+// jQuery for page scrolling feature - requires jQuery Easing plugin
+/*  $(function() {
+    $('.page-scroll a').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+}); */
+
+//END OF JQUERY EASY PLUGIN CODE
+
+/* Scroll Smooth Function 
+var scrollY = 0;
+var distance = 40;
+var speed = 24;
+function autoScrollTo (el) {
+  var currentY = window.pageYoffset;
+  var targetY = document.getElementById(el).offsetTop;
+  var bodyHeight = document.body.offsetHeight;
+  var yPos = currentY + windown.innerHeight;
+  }
+
+
+
+
+
+*/
+
+
+// END OF SMOOTH SCROLLING
+
+
+
+
 if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript requires jQuery') }
 
 /* ========================================================================
@@ -2112,3 +2151,8 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   })
 
 }(jQuery);
+
+
+
+
+
