@@ -106,7 +106,7 @@ var videos = document.getElementById('videos');
 
 addEventHandler(videos, 'click', function(e) {
     e.preventDefault();
-    animator.scrollToPercent(45);
+    animator.scrollToPercent(41.9);
 });
 
 
@@ -114,21 +114,21 @@ var tour = document.getElementById('tour');
 
 addEventHandler(tour, 'click', function(e) {
     e.preventDefault();
-    animator.scrollToPercent(58);
+    animator.scrollToPercent(51.5);
 });
 
 var shop = document.getElementById('shop');
 
 addEventHandler(shop, 'click', function(e) {
     e.preventDefault();
-    animator.scrollToPercent(65.5);
+    animator.scrollToPercent(60.7);
 });
 
 var contact = document.getElementById('contact');
 
 addEventHandler(contact, 'click', function(e) {
     e.preventDefault();
-    animator.scrollToPercent(71.8);
+    animator.scrollToPercent(73);
 });
 
 
