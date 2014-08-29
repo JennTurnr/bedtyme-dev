@@ -96,7 +96,8 @@ h6 {
 .content-section-a {
     padding: 50px 0;
     /* background-color: #f8f8f8; */
-   background-color: #801e24;
+  /* background-color: #801e24; */
+  background-color: white;
    /* background-color: #e7e7e7; */
    color: #080808;
 }
@@ -122,9 +123,11 @@ h6 {
 
 .banner {
     padding: 100px 0;
-    color: #f8f8f8;
+    /* color: #f8f8f8; */
+    color: black;
     /* background: url(../img/banner-bg.jpg) no-repeat center center; */
-    background-color: #801e24;
+   /*  background-color: #801e24; */
+   background-color: white;
     background-size: cover;
 }
 
@@ -214,6 +217,11 @@ footer a:hover {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+
+.navbar-default .navbar-nav > li {
+    font-weight: bold;
 }
 
 
