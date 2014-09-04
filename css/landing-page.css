@@ -100,7 +100,7 @@ h6 {
  /* background-color: white; */
    /* background-color: #e7e7e7; */
    /* color: #080808; */
-   color: white;
+   color: #f2f2f2;
 }
 
 .content-section-b {
@@ -117,10 +117,15 @@ h6 {
 } 
 
 .section-heading-spacer {
-    float: left;
+   /* float: left; */
+   float: right;
     width: 200px;
     border-top: 3px solid #e7e7e7; 
 } 
+
+.videos {
+    padding-left: 250px;
+}
 
 .banner {
     padding: 100px 0;
@@ -137,7 +142,8 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
     /* color: #080808; */
-    color: white;
+    /* color: white; */
+    color: #f2f2f2;
 }
 
 .banner ul {
@@ -234,8 +240,44 @@ p.copyright {
     color: #801e24;
 }
 
+/* Tint Up Social Feed Mobile */
 
 .tintup {
     width: 100%;
 }
+
+
+/* Video Carousel */
+#player {
+    width: 348px;
+    height: 240px;
+    overflow: hidden;
+    background: gray;
+    position: absolute;
+    border: solid 2px gray;
+}
+
+.youtube .carousel {
+    width: 20%;
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+    right: 0px;
+    z-index: 3;
+}
+
+.youtube .thumbnail {
+    margin: 2px;
+    width: 80%;
+    border: 1px solid black;  
+}
+
+.youtube iframe.player {
+    width: 80%;
+    height: 240px;  
+    overflow: auto;
+    border: 0;
+}
+
+
 
